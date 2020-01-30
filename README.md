@@ -1,3 +1,3 @@
 # portfolio
 
-[View Demo] (https://christyzliang.github.io/portfolio/)
+[view demo](https://christyzliang.github.io/portfolio/)
