@@ -175,10 +175,12 @@ justify-content: center;
 .hero {
   background-color: #E9E7E7;
   padding: 15em;
-  text-align: center; }
+  text-align: center; 
+}
   .hero p {
     margin-left: auto;
-    margin-right: auto; }
+    margin-right: auto; 
+  }
 
 /* Colored Sections */
 section.teal {
@@ -195,7 +197,6 @@ section.teal {
 .site-header {
   display: flex;
   justify-content: space-between;
-  position: absolute;
   width: 100%;
 }
 .site-header h1 {
@@ -332,7 +333,6 @@ body {
     width: 25%;
   }
 }
-
 .thumbgrid a img {
   display: block;
   max-width: 100%;
