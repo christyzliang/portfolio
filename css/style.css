@@ -394,7 +394,7 @@ form label {
 }
 form input,
 form textarea {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: "Avenir", Arial, sans-serif;
   font-size: 1em;
   line-height: 1.15em;
   display: block;
