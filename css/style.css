@@ -45,6 +45,12 @@ body {
     line-height: 1.4;
 }
 h1, h2, h3 {font-weight: normal;}
+h4 {
+  font-weight: normal; 
+  text-align: center;
+  border: 3px; 
+  border-style: solid;
+  border-color: #a5c9c9;}
 p {max-width: 35em;}
 
 /* @media(min-width: 768px;) */
