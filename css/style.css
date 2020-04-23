@@ -336,9 +336,9 @@ body {
   box-sizing: border-box;
   display: inline-block;
   width: 50%;
-  margin-right: -4px;
+  margin-right: -2px;
   margin-bottom: -7px;
-  padding: 0;
+  padding: .15em;
 }
 
 @media (min-width: 768px) {
