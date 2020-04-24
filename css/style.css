@@ -270,25 +270,25 @@ body {
   padding: 0;
 }
 .container {
-  width: 92%;
+  width: 90%;
   max-width: 1000px;
   margin: 0 auto;
-  padding: 0 4%;
+  padding: 2em 0;
 }
 /* Grid */
 .row {
   margin: 0;
 }
-
 .column {
   margin: 0 0 3em 0;
-  padding-top: 1.5em;
+  padding-top: 3em;
 }
 
 /* MEDIUM GRID*/
 @media (min-width: 768px) {
   .column {
     float: left;
+    margin-right: 8%;
     }
   .column:last-child {
     margin-right: 0;
