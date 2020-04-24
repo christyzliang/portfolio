@@ -181,7 +181,6 @@ a.button.active {
 /* MAIN CONTENT */
 main { padding: 0; }
 section {
-padding: 2em;
 display: grid;
 align-items: center;
 justify-content: center;
@@ -193,7 +192,7 @@ justify-content: center;
 
 /* HERO */
 .hero {
-  background-color: #E9E7E7;
+  background-color: rgb(255, 255, 255);
   padding: 15em;
   text-align: center; 
 }
@@ -279,8 +278,8 @@ body {
 /* Grid */
 .row {
   margin: 0;
-  padding: 1.5em;
 }
+
 .column {
   margin: 0 0 3em 0;
   padding-top: 1.5em;
@@ -290,8 +289,7 @@ body {
 @media (min-width: 768px) {
   .column {
     float: left;
-    margin-right: 8%;
-  }
+    }
   .column:last-child {
     margin-right: 0;
   }
