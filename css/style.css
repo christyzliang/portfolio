@@ -47,15 +47,16 @@ body {
 h1, h2, h3 {font-weight: normal;}
 h4 {
   font-size: 1em;
-  letter-spacing: 4px;
+  line-height: 1.1em;
+  letter-spacing: 3px;
   font-weight: normal; 
   text-align: center;
   margin: 0 auto;
-  width: 12.5em;
+  width: 9em;
+  padding: .5em;
   border-style: solid ;
   border-width: 0 0 3px 0;
   border-color:  #A5C9C9;
-  padding-bottom: .5em;
 }
 p {max-width: 35em;}
 
@@ -128,7 +129,6 @@ a.button {
   background-color: #ffffff;
   border: 1px #A5C9C9;
   color: #fff;
-  padding: 0.8em 1em 0.65em 1em;
   -webkit-border-radius: 0.32em;
   -moz-border-radius: 0.32em;
   border-radius: 0.32em;
@@ -161,7 +161,8 @@ a.button.active {
 .btn {
   border: none;
   background-color: inherit;
-  padding: 1em;
+  padding: .5em;
+  width: 18em;
   font-size: 16px;
   cursor: pointer;
   display: inline-block;
@@ -180,7 +181,7 @@ a.button.active {
 /* MAIN CONTENT */
 main { padding: 0; }
 section {
-padding: 1em;
+padding: 2em;
 display: grid;
 align-items: center;
 justify-content: center;
@@ -226,7 +227,7 @@ section.teal {
   color: rgba(0, 0, 0, 0.5);
   text-transform: uppercase;
   letter-spacing: 0.1em;
-  padding: 1em 0 0 1em;
+  padding: .1em 0 0 1em;
   display: inline-block;
   transition: .2s ease-out all;
 }
@@ -278,7 +279,7 @@ body {
 /* Grid */
 .row {
   margin: 0;
-  padding: 1em;
+  padding: 1.5em;
 }
 .column {
   margin: 0 0 3em 0;
