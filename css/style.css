@@ -45,15 +45,6 @@ body {
     line-height: 1.4;
 }
 h1, h2, h3 {font-weight: normal;}
-h5 {
-  font-size: 1.1em;
-  line-height: 1.3em;
-  font-weight: normal; 
-  text-align: left;
-  margin: 0 auto;
-  padding: 1em;
-  max-width: 35em;
-}
 h4 {
   font-size: 1em;
   line-height: 1.1em;
@@ -66,6 +57,15 @@ h4 {
   border-style: solid ;
   border-width: 0 0 3px 0;
   border-color:  #A5C9C9;
+}
+h5 {
+  font-size: 1.1em;
+  line-height: 1.3em;
+  font-weight: lighter;
+  text-align: left;
+  margin: 0 auto;
+  padding: 1em;
+  max-width: 35em;
 }
 
 /* @media(min-width: 768px;) */
