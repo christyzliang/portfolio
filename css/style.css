@@ -169,12 +169,13 @@ a.button.active {
 .btn {
   border: none;
   background-color: inherit;
-  padding: .5em;
-  width: 18em;
+  margin: 0 3em;
+  padding: .2em;
+  width: 17em;
   font-size: 16px;
   cursor: pointer;
   display: inline-block;
-  background: #d2d2d2;
+  background: #eeeeee;
 }
 .default:hover {
   background: #e7e7e7;
@@ -189,7 +190,6 @@ a.button.active {
 /* MAIN CONTENT */
 main { padding: 0; }
 section {
-display: grid;
 align-items: center;
 justify-content: center;
 }
