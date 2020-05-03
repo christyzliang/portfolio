@@ -201,7 +201,6 @@ justify-content: center;
 /* HERO */
 .hero {
   background-color: rgb(255, 255, 255);
-  padding: 15em;
   text-align: center; 
 }
 .hero p {
