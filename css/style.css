@@ -187,6 +187,13 @@ a.button.active {
   margin: 0 auto;
 }
 
+ul {
+  display: block;
+  padding: 0 2em 0 2em;
+  text-align: center;
+  
+}
+
 /* MAIN CONTENT */
 main { padding: 0; }
 section {
