@@ -289,6 +289,29 @@ body {
   margin: 0 auto;
   padding: 2em 0;
 }
+
+/* FEATURED PROJECTS */
+@media (min-width: 768px) {
+
+  .featuredproject {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .featuredproject.swapped {
+    flex-direction: row-reverse;
+  }
+  .featuredproject .image-wrapper {
+    width: 49%;
+  }
+  .featuredproject .text-wrapper {
+    width: 49%;
+    padding: 3em;
+  }
+}
+
 /* Grid */
 .row {
   margin: 0;
