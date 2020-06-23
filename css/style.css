@@ -44,7 +44,17 @@ body {
     font-size: 87.5% /* 14px */;
     line-height: 1.4;
 }
-h1, h2, h3 {font-weight: normal;}
+h1, h2, {font-weight: normal;}
+h3 {
+  font-size: 1em;
+  line-height: 1.1em;
+  letter-spacing: 3px;
+  font-weight: normal; 
+  text-align: center;
+  margin: 0 auto;
+  /* width: 9em; */
+  padding: .5em;
+}
 h4 {
   font-size: 1em;
   line-height: 1.1em;
