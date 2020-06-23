@@ -548,7 +548,7 @@ fade-in {
 
 /* REVEALER */
 .revealer * {
-  transition: all 1s ease;
+  transition: all 10s ease;
   opacity: 0;
   transform: translateY(-20px);
 }
